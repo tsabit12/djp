@@ -46,7 +46,7 @@ const ListBarcode = props => {
 		              			Batal Serah
 		              		</Button>
 		              		<Button onClick={() => props.onTambah(row.barcode)}>
-		              			Tambah
+		              			Scan Ulang
 		              		</Button>
 	              		</ButtonGroup> : <React.Fragment>{row.status}</React.Fragment>}
 	              </TableCell>}
